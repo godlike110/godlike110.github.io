@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Start Using Hexo | IT Alien</title>
+  <title>Git 使用指南 | IT Alien</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is your very first post. If you get any problems when using Hexo, read this。">
+  <meta name="description" content="Git 详细使用,精致讲解。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Start Using Hexo">
-<meta property="og:url" content="http://www.theonlyshare.com/2016/07/05/hello-world/index.html">
+<meta property="og:title" content="Git 使用指南">
+<meta property="og:url" content="http://www.theonlyshare.com/2016/11/06/Git-使用指南/index.html">
 <meta property="og:site_name" content="IT Alien">
-<meta property="og:description" content="This is your very first post. If you get any problems when using Hexo, read this。">
-<meta property="og:updated_time" content="2016-11-06T03:37:58.827Z">
+<meta property="og:description" content="Git 详细使用,精致讲解。">
+<meta property="og:image" content="http://www.bootcss.com/p/git-guide/img/trees.png">
+<meta property="og:image" content="http://www.bootcss.com/p/git-guide/img/branches.png">
+<meta property="og:updated_time" content="2016-11-06T05:10:17.842Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Start Using Hexo">
-<meta name="twitter:description" content="This is your very first post. If you get any problems when using Hexo, read this。">
+<meta name="twitter:title" content="Git 使用指南">
+<meta name="twitter:description" content="Git 详细使用,精致讲解。">
+<meta name="twitter:image" content="http://www.bootcss.com/p/git-guide/img/trees.png">
   
     <link rel="alternative" href="/atom.xml" title="IT Alien" type="application/atom+xml">
   
@@ -220,11 +223,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Git-使用指南" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/07/05/hello-world/" class="article-date">
-      <time datetime="2016-07-05T04:47:44.000Z" itemprop="datePublished">2016-07-05</time>
+      <a href="/2016/11/06/Git-使用指南/" class="article-date">
+      <time datetime="2016-11-06T03:56:52.000Z" itemprop="datePublished">2016-11-06</time>
 </a>
     </div>
   
@@ -237,7 +240,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Start Using Hexo
+      Git 使用指南
     </h1>
   
 
@@ -246,13 +249,13 @@
       <div class="article-info article-info-post">
         
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/tools/">tools</a>
+    <a class="article-category-link" href="/categories/git/">git</a><a class="article-category-link" href="/categories/git/tools/">tools</a>
     </div>
 
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -262,15 +265,49 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>Git 简明教程，易懂、使用。</p>
+<h2 id="理论篇"><a href="#理论篇" class="headerlink" title="理论篇"></a>理论篇</h2><h3 id="本地仓库结构"><a href="#本地仓库结构" class="headerlink" title="本地仓库结构"></a>本地仓库结构</h3><p>   你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 [工作目录]，它持有实际文件；第二个是 [缓存区（Index)]，它像个缓存区域，临时保存你的改动；最后是 [HEAD]，指向你最近一次提交后的结果。<br><img src="http://www.bootcss.com/p/git-guide/img/trees.png" alt="Tree img"></p>
+<h3 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h3><p>分支是用来将特性开发绝缘开来的。在你创建仓库的时候，master 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。</p>
+<p><img src="http://www.bootcss.com/p/git-guide/img/branches.png" alt="branch icon"></p>
+<h2 id="基础篇"><a href="#基础篇" class="headerlink" title="基础篇"></a>基础篇</h2><h3 id="检出仓库"><a href="#检出仓库" class="headerlink" title="检出仓库"></a>检出仓库</h3><p>选择进入一个文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/godlike110/mydatabus-client.git</div></pre></td></tr></table></figure>
+<h3 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h3><h4 id="添加一个文件"><a href="#添加一个文件" class="headerlink" title="添加一个文件"></a>添加一个文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add &lt;filename&gt;</div></pre></td></tr></table></figure>
+<h4 id="添加所有文件"><a href="#添加所有文件" class="headerlink" title="添加所有文件"></a>添加所有文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add *</div></pre></td></tr></table></figure>
+<h4 id="添加目录"><a href="#添加目录" class="headerlink" title="添加目录"></a>添加目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add &lt;path&gt;</div></pre></td></tr></table></figure>
+<h3 id="提交本地仓库"><a href="#提交本地仓库" class="headerlink" title="提交本地仓库"></a>提交本地仓库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git commit -m <span class="string">"代码提交信息"</span></div></pre></td></tr></table></figure>
+<h3 id="提交远程仓库"><a href="#提交远程仓库" class="headerlink" title="提交远程仓库"></a>提交远程仓库</h3><p>当你的代码已经提交到本地仓库时。执行如下命令以将这些改动提交到远端仓库</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin master</div></pre></td></tr></table></figure>
+<p>以上命令是将master分支推送到远端。</p>
+<h3 id="关联远程仓库"><a href="#关联远程仓库" class="headerlink" title="关联远程仓库"></a>关联远程仓库</h3><p>如果你发现你本地仓库并未关联远程仓库，而又想将本地仓库关联到某个远端仓库时，执行如下命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git remote add origin https://github.com/godlike110/mydatabus-client.git</div></pre></td></tr></table></figure>
+<p>以上便是将本地仓库关联到mydatabus-client</p>
+<h3 id="分支-1"><a href="#分支-1" class="headerlink" title="分支"></a>分支</h3><h4 id="创建本地分支"><a href="#创建本地分支" class="headerlink" title="创建本地分支"></a>创建本地分支</h4><p>如果你当前位于mater分支下执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git branch mybranch</div></pre></td></tr></table></figure>
+<p>将会基于master分支创建一个mybranch分支，内容和master一直。</p>
+<h4 id="切换到分支"><a href="#切换到分支" class="headerlink" title="切换到分支"></a>切换到分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git checkout mybranch</div></pre></td></tr></table></figure>
+<h4 id="本地分支推送远端"><a href="#本地分支推送远端" class="headerlink" title="本地分支推送远端"></a>本地分支推送远端</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin mybranch</div></pre></td></tr></table></figure>
+<h4 id="删除本地分支"><a href="#删除本地分支" class="headerlink" title="删除本地分支"></a>删除本地分支</h4><p>如果你想删除本地的某个分支，执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git branch <span class="_">-d</span> mybranch</div></pre></td></tr></table></figure>
+<p>将把mybranch分支删除，[但是不会删除远端的mybranch分支]</p>
+<h4 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin --delete mybranch</div></pre></td></tr></table></figure>
+<h3 id="更新与合并"><a href="#更新与合并" class="headerlink" title="更新与合并"></a>更新与合并</h3><h4 id="更新到最新代码"><a href="#更新到最新代码" class="headerlink" title="更新到最新代码"></a>更新到最新代码</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git pull</div></pre></td></tr></table></figure>
+<p>将在在你的工作目录中 获取（fetch） 并 合并（merge） 远端的改动。</p>
+<h4 id="合并分支"><a href="#合并分支" class="headerlink" title="合并分支"></a>合并分支</h4><p>要合并其他分支到你的当前分支，执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git merge &lt;branch&gt;</div></pre></td></tr></table></figure>
+<p>不幸的是，自动合并并非次次都能成功，并可能导致 冲突（conflicts）。 这时候就需要你修改这些文件来人肉合并这些 冲突（conflicts） 了。改完之后，你需要执行如下命令以将它们标记为合并成功：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git add &lt;filename&gt;</div></pre></td></tr></table></figure>
+<p>在合并改动之前，也可以使用如下命令查看：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git diff &lt;source_branch&gt; &lt;target_branch&gt;</div></pre></td></tr></table></figure>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><h4 id="创建标签"><a href="#创建标签" class="headerlink" title="创建标签"></a>创建标签</h4><p>在软件发布时创建标签，是被推荐的。这是个旧有概念，在 SVN 中也有。可以执行如下命令以创建一个叫做 1.0.0 的标签：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git tag 1.0.0 1b2e1d63ff</div></pre></td></tr></table></figure>
+<p>1b2e1d63ff 是你想要标记commitId.</p>
+<h3 id="替换"><a href="#替换" class="headerlink" title="替换"></a>替换</h3><h4 id="替换本地文件"><a href="#替换本地文件" class="headerlink" title="替换本地文件"></a>替换本地文件</h4><p>假如你做错事（自然，这是不可能的），你可以使用如下命令替换掉本地改动：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git checkout -- &lt;filename&gt;</div></pre></td></tr></table></figure></p>
+<p>此命令会使用 HEAD 中的最新内容替换掉你的工作目录中的文件。已添加到缓存区的改动，以及新文件，都不受影响。</p>
+<h4 id="丢弃本地所有变更以及提交"><a href="#丢弃本地所有变更以及提交" class="headerlink" title="丢弃本地所有变更以及提交"></a>丢弃本地所有变更以及提交</h4><p>假如你想要丢弃你所有的本地改动与提交，可以到服务器上获取最新的版本并将你本地主分支指向到它：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git fetch origin</div></pre></td></tr></table></figure>
+<p>然后执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git reset --hard origin/master</div></pre></td></tr></table></figure>
+<p>后续内容，敬请期待。</p>
 
       
     </div>
@@ -279,13 +316,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/07/05/hello-world/">Start Using Hexo</a></p>
+        <p><span>本文标题:</span><a href="/2016/11/06/Git-使用指南/">Git 使用指南</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 alien coder 的个人博客">alien coder</a></p>
-        <p><span>发布时间:</span>2016年07月05日 - 12时47分</p>
-        <p><span>最后更新:</span>2016年11月06日 - 11时37分</p>
+        <p><span>发布时间:</span>2016年11月06日 - 11时56分</p>
+        <p><span>最后更新:</span>2016年11月06日 - 13时10分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/07/05/hello-world/" title="Start Using Hexo">http://www.theonlyshare.com/2016/07/05/hello-world/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://www.theonlyshare.com/2016/07/05/hello-world/　　作者: alien coder" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/11/06/Git-使用指南/" title="Git 使用指南">http://www.theonlyshare.com/2016/11/06/Git-使用指南/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://www.theonlyshare.com/2016/11/06/Git-使用指南/　　作者: alien coder" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -298,15 +335,11 @@
 
 <nav id="article-nav">
   
-    <a href="/2016/11/06/Git-使用指南/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          Git 使用指南
-        
-      </div>
-    </a>
   
+    <a href="/2016/07/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Start Using Hexo</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
   
 </nav>
 
@@ -343,7 +376,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#理论篇"><span class="toc-number">1.</span> <span class="toc-text">理论篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#本地仓库结构"><span class="toc-number">1.1.</span> <span class="toc-text">本地仓库结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分支"><span class="toc-number">1.2.</span> <span class="toc-text">分支</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基础篇"><span class="toc-number">2.</span> <span class="toc-text">基础篇</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#检出仓库"><span class="toc-number">2.1.</span> <span class="toc-text">检出仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加"><span class="toc-number">2.2.</span> <span class="toc-text">添加</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#添加一个文件"><span class="toc-number">2.2.1.</span> <span class="toc-text">添加一个文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#添加所有文件"><span class="toc-number">2.2.2.</span> <span class="toc-text">添加所有文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#添加目录"><span class="toc-number">2.2.3.</span> <span class="toc-text">添加目录</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#提交本地仓库"><span class="toc-number">2.3.</span> <span class="toc-text">提交本地仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#提交远程仓库"><span class="toc-number">2.4.</span> <span class="toc-text">提交远程仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关联远程仓库"><span class="toc-number">2.5.</span> <span class="toc-text">关联远程仓库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分支-1"><span class="toc-number">2.6.</span> <span class="toc-text">分支</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#创建本地分支"><span class="toc-number">2.6.1.</span> <span class="toc-text">创建本地分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#切换到分支"><span class="toc-number">2.6.2.</span> <span class="toc-text">切换到分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#本地分支推送远端"><span class="toc-number">2.6.3.</span> <span class="toc-text">本地分支推送远端</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#删除本地分支"><span class="toc-number">2.6.4.</span> <span class="toc-text">删除本地分支</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#删除远程分支"><span class="toc-number">2.6.5.</span> <span class="toc-text">删除远程分支</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#更新与合并"><span class="toc-number">2.7.</span> <span class="toc-text">更新与合并</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#更新到最新代码"><span class="toc-number">2.7.1.</span> <span class="toc-text">更新到最新代码</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#合并分支"><span class="toc-number">2.7.2.</span> <span class="toc-text">合并分支</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#标签"><span class="toc-number">2.8.</span> <span class="toc-text">标签</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#创建标签"><span class="toc-number">2.8.1.</span> <span class="toc-text">创建标签</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#替换"><span class="toc-number">2.9.</span> <span class="toc-text">替换</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#替换本地文件"><span class="toc-number">2.9.1.</span> <span class="toc-text">替换本地文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#丢弃本地所有变更以及提交"><span class="toc-number">2.9.2.</span> <span class="toc-text">丢弃本地所有变更以及提交</span></a></li></ol></li></ol></li></ol>
 </div>
 <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
@@ -391,7 +424,7 @@
     
       <div class="duoshuo" id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2016/07/05/hello-world/" data-title="Start Using Hexo" data-url="http://www.theonlyshare.com/2016/07/05/hello-world/"></div>
+    <div class="ds-thread" data-thread-key="2016/11/06/Git-使用指南/" data-title="Git 使用指南" data-url="http://www.theonlyshare.com/2016/11/06/Git-使用指南/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -414,13 +447,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/11/06/Git-使用指南/" title="上一篇: Git 使用指南">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2016/07/05/hello-world/" title="下一篇: Start Using Hexo">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
     <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/11/06/Git-使用指南/">Git 使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/hello-world/">Start Using Hexo</a></li></ul>
